@@ -4,13 +4,13 @@
 
 ## Install
 
-1. Install the plugin with the following command:
+* Install the plugin with the following command:
 
 ```shell
 npm install gulp-phpcbf --save-dev
 ```
 
-2. [Install PHP Code Beautifier](https://github.com/squizlabs/PHP_CodeSniffer#installation)
+* [Install PHP Code Beautifier](https://github.com/squizlabs/PHP_CodeSniffer#installation)
 
 
 ## Usage
