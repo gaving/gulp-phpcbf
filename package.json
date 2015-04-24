@@ -1,0 +1,32 @@
+{
+  "name": "gulp-phpcbf",
+  "version": "0.1.0",
+  "description": "PHP Code Beautifier plugin for Gulp",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gaving/gulp-phpcbf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gaving/gulp-phpcbf/issues"
+  },
+  "author": {
+    "name": "Gavin Gilmour",
+    "email": "gavin.gilmour@gmail.com"
+  },
+  "main": "index.js",
+  "keywords": [
+    "gulpplugin",
+    "phpcbf"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.3",
+    "through2": "^0.6.3",
+    "chalk": "^0.5.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.6.3"
+  },
+  "scripts": {
+    "jshint": "node ./node_modules/.bin/jshint index.js"
+  }
+}
