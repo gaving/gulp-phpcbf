@@ -2,6 +2,8 @@
 
 > Gulp plugin for running [PHP Code Beautifier](https://github.com/squizlabs/PHP_CodeSniffer).
 
+> WARNING - This will modify your source files, ensure things are backed up!
+
 ## Install
 
 * Install the plugin with the following command:

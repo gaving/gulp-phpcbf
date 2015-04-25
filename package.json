@@ -1,6 +1,6 @@
 {
   "name": "gulp-phpcbf",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PHP Code Beautifier plugin for Gulp",
   "repository": {
     "type": "git",
