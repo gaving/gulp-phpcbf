@@ -45,7 +45,9 @@ var phpcbfPlugin = function(options) {
       return;
     }
 
-    var phpcbf = exec(buildCommand(options), function(error, stdout, stderr) {
+    var phpcbf = exec(buildCommand(options), {
+      maxBuffer: Infinity
+    }, function(error, stdout, stderr) {
       if (error && error.code != 1) {
         stream.emit('error', new gutil.PluginError('gulp-phpcbf', error));
       }
