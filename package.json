@@ -9,10 +9,6 @@
   "bugs": {
     "url": "https://github.com/gaving/gulp-phpcbf/issues"
   },
-  "author": {
-    "name": "Gavin Gilmour",
-    "email": "gavin.gilmour@gmail.com"
-  },
   "main": "index.js",
   "keywords": [
     "gulpplugin",
